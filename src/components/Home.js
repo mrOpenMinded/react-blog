@@ -21,18 +21,18 @@ export default class Home extends Component {
       <>
         <div className="Container">
           <div className="container1">
-            <a href="https://www.pixabay.com">
+            <a href="https://pixabay.com">
               <img src={land1} alt="land1" style={{ width: '445px', height: '347px' }}>
               </img>
             </a>
           </div>
           <div className="container2">
-            <a href="https://www.pixabay.com">
+            <a href="https://pixabay.com">
               <img src={land2} alt="land2" style={{ width: '295px', height: '155px' }}></img>
             </a>
           </div>
           <div className="container3">
-            <a href="https://www.pixabay.com">
+            <a href="https://pixabay.com">
               <img src={land3} alt="land3" style={{ width: '295px', height: '170px' }}></img>
             </a>
 
@@ -306,7 +306,7 @@ export default class Home extends Component {
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <a href="https://www.pixabay.com" style={{ textDecoration: "none", fontSize: "22px", color: "#F08080" }}>
+          <a href="https://pixabay.com" style={{ textDecoration: "none", fontSize: "22px", color: "#F08080" }}>
              View More &rarr;
           </a>
         </div>
