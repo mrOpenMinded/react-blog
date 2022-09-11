@@ -1,0 +1,158 @@
+.container1{
+    top: 160px;
+    position: absolute;
+left: 230px;
+width: 450px;
+height: 350px;
+/* border: 2px solid black; */
+border-radius: 5px;
+margin-top: 15px;
+
+}
+.Container{
+    margin-top: 35px;
+    /* margin-left: 300px; */
+    /* border: 2px solid red; */
+    height: 380px;
+    /* padding-left: 200px; */
+}
+.container2{
+    position: absolute;
+    top: 160px;
+left: 690px;
+width: 300px;
+height: 165px;
+/* border: 2px solid red; */
+border-radius: 7px;
+margin-top: 15px;
+}
+.container3{
+    position: absolute;
+    top: 350px;
+left: 690px;
+width: 300px;
+height: 175px;
+/* border: 2px solid red; */
+border-radius: 7px;
+}
+.title1{
+    text-align: left;
+    position: absolute;
+    left: 30px;
+}
+.title2{
+    text-align: left;
+    position: absolute;
+    left: 230px;
+}
+.Container1{
+    margin-top: 40px;
+    height: 110px;
+}
+.ruleBar1{
+    position: absolute;
+    left:35px;
+    /* width:10%;
+    color:red;
+    height: 10%; */
+    top: 610px;
+    border: 3px solid red;
+    width:6%;
+}
+.Container2{
+    /* 
+    
+    top: 1600px;
+    
+    height: 1000px; */
+     /* border: 2px solid red; */
+    margin-top: 20px;
+    /* height: 70px; */
+    width: 800px;
+    height: 80px;
+    /* left: 230px;
+    position: absolute; */
+}
+
+.ruleBar2{
+    position: absolute;
+    left:233px;
+    /* width:10%;
+    color:red;
+    height: 10%; */
+    top: 1585px;
+    border: 3px solid red;
+    width:7%;
+}
+.Container3{
+    margin-top: 10px;
+   position:absolute;
+    left: 233px;
+    /* border:3px solid red; */
+    width: 900px;
+}
+.Container4{
+    position: absolute;
+    left: 630px;
+    width:250px;
+    height:550px;
+    border: 2px solid rgb(202, 200, 200);
+    top:5px;
+    /* background-color: rgb(75, 250, 75); */
+}
+
+.adverTitle{
+    position:relative;
+    text-align: center;
+    top:225px;
+    /* background-image:url("./adver.png") ; */
+}
+.Container5{
+    position: absolute;
+    left: 630px;
+    width:250px;
+    height:900px;
+    /* border: 2px solid rgb(202, 200, 200); */
+    top:620px;
+    /* background-color: rgb(75, 250, 75); */
+}
+.adverHead{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    font-size: 32px;
+}
+.ruleBar3{
+    position:relative;
+    top:20px;
+    left:13px;
+    border: 3px solid red;
+    width:23%;
+}
+.Container6{
+    position: absolute;
+    left:0px;
+    top: 870px;
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 537px;
+}
+.photoHead{
+    position: absolute;
+    left:0px;
+    top:1480px ;
+}
+.photoTitle{
+    position: absolute;
+    top:1525px;
+    border: 3px solid red;
+    width: 10%;
+}
+.Container7{
+    position: absolute;
+    left: 220px;
+    /* border: 2px solid red; */
+    top:3200px;
+    width:880px;
+
+}

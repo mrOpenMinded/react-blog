@@ -1,0 +1,14 @@
+.headCom {
+    text-align: center;
+}
+
+#head1 {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-size: 18px;
+    margin-right: 6px;
+    color: gray;
+    opacity: 0.7;
+    font-weight: bolder;
+    /* transform: rotate(-180deg); */
+}

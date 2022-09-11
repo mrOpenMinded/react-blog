@@ -1,0 +1,32 @@
+.ContainerFit1{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    width: 600px;
+    height: 800px;
+}
+
+.headFit1{
+    position: relative;
+    top: 0px;
+    left: 5px;
+    width: 70px;
+    border: 2px solid red;
+}
+.headFit2{
+    position: relative;
+    top: 0px;
+    left: 5px;
+    width: 70px;
+    border: 2px solid red;
+}
+
+.ContainerFit2{
+    position: absolute;
+    left: 780px;
+    top:180px;
+    width: 350px;
+    height: 500px;
+    /* border: 2px solid red; */
+}

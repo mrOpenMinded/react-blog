@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Bollywood from './components/Bollywood';
+import Technology from './components/Technology';
+import Hollywood from './components/Hollywood';
+import Fitness from './components/Fitness';
+import Food from './components/Food';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <>
+        <Router>
+          <Header />
+          <Navbar />
+          <Routes>
+            <Route exact path="/" element={<Home />}>
+            </Route>
+            <Route exact path="/bollywood" element={<Bollywood />}>
+            </Route>
+            <Route exact path="/technology" element={<Technology />}>
+            </Route>
+            <Route exact path="/hollywood" element={<Hollywood />}>
+            </Route>
+            <Route exact path="/fitness" element={<Fitness />}>
+            </Route>
+            <Route exact path="/food" element={<Food />}>
+            </Route>
+          </Routes>
+        </Router>
+
+      </>
+    )
+  }
 }
-
-export default App;
