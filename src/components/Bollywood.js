@@ -19,104 +19,104 @@ export default class Bollywood extends Component {
     render() {
         return (
             <>
-                <div class="Container10">
+                <div className="Container10">
                     <h3>Bollywood</h3>
-                    <hr class="bollyHead">
+                    <hr className="bollyHead">
                     </hr>
-                    <div class="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly1} class="img-fluid rounded-start" alt="bolly1" style={{ width: "250px", height: "214px" }} />
+                    <div className="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly1} className="img-fluid rounded-start" alt="bolly1" style={{ width: "250px", height: "214px" }} />
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly2} class="img-fluid rounded-start" alt="bolly2" style={{ width: "250px", height: "214px" }} />
+                    <div className="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly2} className="img-fluid rounded-start" alt="bolly2" style={{ width: "250px", height: "214px" }} />
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly3} class="img-fluid rounded-start" alt="bolly3" style={{ width: "250px", height: "214px" }} />
+                    <div className="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly3} className="img-fluid rounded-start" alt="bolly3" style={{ width: "250px", height: "214px" }} />
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly4} class="img-fluid rounded-start" alt="bolly4" style={{ width: "250px", height: "214px" }} />
+                    <div className="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly4} className="img-fluid rounded-start" alt="bolly4" style={{ width: "250px", height: "214px" }} />
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly5} class="img-fluid rounded-start" alt="bolly5" style={{ width: "250px", height: "214px" }} />
+                    <div className="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly5} className="img-fluid rounded-start" alt="bolly5" style={{ width: "250px", height: "214px" }} />
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly6} class="img-fluid rounded-start" alt="bolly6" style={{ width: "250px", height: "214px" }} />
+                    <div className="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly6} className="img-fluid rounded-start" alt="bolly6" style={{ width: "250px", height: "214px" }} />
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly7} class="img-fluid rounded-start" alt="bolly7" style={{ width: "250px", height: "214px" }} />
+                    <div className="card mb-3 mx-1" style={{ maxWidth: "400px", maxHeight: "215px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly7} className="img-fluid rounded-start" alt="bolly7" style={{ width: "250px", height: "214px" }} />
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
@@ -126,74 +126,74 @@ export default class Bollywood extends Component {
                     </div>
 
                 </div>
-                <div class="Container11">
+                <div className="Container11">
                     <h3>
                         Top Posts
                     </h3>
-                    <hr class="bollyHead"></hr>
-                    <div class="card mb-3" style={{ maxWidth: "540px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly9} class="img-fluid rounded-start" alt="bolly9" style={{ width: "500px", height: "177px" }} />
+                    <hr className="bollyHead"></hr>
+                    <div className="card mb-3" style={{ maxWidth: "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly9} className="img-fluid rounded-start" alt="bolly9" style={{ width: "500px", height: "177px" }} />
 
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style={{ maxWidth: "540px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly10} class="img-fluid rounded-start" alt="bolly10" style={{ width: "500px", height: "177px" }} />
+                    <div className="card mb-3" style={{ maxWidth: "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly10} className="img-fluid rounded-start" alt="bolly10" style={{ width: "500px", height: "177px" }} />
 
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style={{ maxWidth: "540px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly11} class="img-fluid rounded-start" alt="bolly11" style={{ width: "500px", height: "177px" }} />
+                    <div className="card mb-3" style={{ maxWidth: "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly11} className="img-fluid rounded-start" alt="bolly11" style={{ width: "500px", height: "177px" }} />
 
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style={{ maxWidth: "540px" }}>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src={bolly12} class="img-fluid rounded-start" alt="bolly12" style={{ width: "500px", height: "177px" }} />
+                    <div className="card mb-3" style={{ maxWidth: "540px" }}>
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img src={bolly12} className="img-fluid rounded-start" alt="bolly12" style={{ width: "500px", height: "177px" }} />
 
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <img src={bolly8} alt="bolly8" style={{width:"500px",height:"350px"}}/>
                 </div>
-                <div class="Container12">
+                <div className="Container12">
                 <h2 style={{textAlign:"center",position:"relative",top:"90px"}}>Amazon shopping</h2>
                     <img src={adver2} alt="adver2" style={{width:"240px",height:"200px",position:"relative",top:"150px",left:"20px"}}/>
                     <h3 style={{textAlign:"center",position:"relative",top:"220px"}}>Just Do It.!!!</h3>

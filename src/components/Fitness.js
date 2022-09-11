@@ -18,154 +18,154 @@ export default class Fitness extends Component {
   render() {
     return (
       <>
-      <div class="ContainerFit1">
-          <h2 class="titleFit1">Fitness</h2>
-          <hr class="headFit1"></hr>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src={fit1} class="img-fluid rounded-start" alt="fit1" style={{ height: "190px" }} />
+      <div className="ContainerFit1">
+          <h2 className="titleFit1">Fitness</h2>
+          <hr className="headFit1"></hr>
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img src={fit1} className="img-fluid rounded-start" alt="fit1" style={{ height: "190px" }} />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src={fit2} class="img-fluid rounded-start" alt="fit2" style={{ height: "190px" }} />
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img src={fit2} className="img-fluid rounded-start" alt="fit2" style={{ height: "190px" }} />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src={fit3} class="img-fluid rounded-start" alt="fit3" style={{ height: "190px" }} />
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img src={fit3} className="img-fluid rounded-start" alt="fit3" style={{ height: "190px" }} />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src={fit4} class="img-fluid rounded-start" alt="fit4" style={{ height: "190px" }} />
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img src={fit4} className="img-fluid rounded-start" alt="fit4" style={{ height: "190px" }} />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src={fit5} class="img-fluid rounded-start" alt="fit5" style={{ height: "190px" }} />
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img src={fit5} className="img-fluid rounded-start" alt="fit5" style={{ height: "190px" }} />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src={fit6} class="img-fluid rounded-start" alt="fit6" style={{ height: "190px" }} />
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img src={fit6} className="img-fluid rounded-start" alt="fit6" style={{ height: "190px" }} />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src={fit7} class="img-fluid rounded-start" alt="fit7" style={{ height: "190px" }} />
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img src={fit7} className="img-fluid rounded-start" alt="fit7" style={{ height: "190px" }} />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
           </div>
           <a href="https://www.isro.gov.in">
-          <img class="mx-2" src={fit13} alt="fit13" style={{ width: "581px", height: "320px", marginTop: "20px" }} />
+          <img className="mx-2" src={fit13} alt="fit13" style={{ width: "581px", height: "320px", marginTop: "20px" }} />
           </a>
           
 
         </div>
-        <div class="ContainerFit2">
-          <h2 class="titleFit2">Top Posts</h2>
-          <hr class="headFit2"></hr>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
-            <img src={fit8} class="card-img-top" alt="fit8" style={{ height: "180px" }} />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div className="ContainerFit2">
+          <h2 className="titleFit2">Top Posts</h2>
+          <hr className="headFit2"></hr>
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
+            <img src={fit8} className="card-img-top" alt="fit8" style={{ height: "180px" }} />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
-            <img src={fit9} class="card-img-top" alt="fit9" style={{ height: "180px" }} />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
+            <img src={fit9} className="card-img-top" alt="fit9" style={{ height: "180px" }} />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
-            <img src={fit10} class="card-img-top" alt="fit10" style={{ height: "180px" }} />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
+            <img src={fit10} className="card-img-top" alt="fit10" style={{ height: "180px" }} />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
-            <img src={fit11} class="card-img-top" alt="fit11" style={{ height: "180px" }} />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
+            <img src={fit11} className="card-img-top" alt="fit11" style={{ height: "180px" }} />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
-          <div class="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
-            <img src={fit12} class="card-img-top" alt="fit12" style={{ height: "180px" }} />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "350px" }}>
+            <img src={fit12} className="card-img-top" alt="fit12" style={{ height: "180px" }} />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
           <a href="https://www.prepbytes.com" style={{ textDecoration: "none", fontSize: "22px", color: "#F08080", marginTop: "30px" }}>
