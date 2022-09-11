@@ -20,20 +20,22 @@ export default class App extends Component {
         <Router>
           <Header />
           <Navbar />
-          <Routes>
-            <Route exact path="/" element={<Home />}>
-            </Route>
-            <Route exact path="/bollywood" element={<Bollywood />}>
-            </Route>
-            <Route exact path="/technology" element={<Technology />}>
-            </Route>
-            <Route exact path="/hollywood" element={<Hollywood />}>
-            </Route>
-            <Route exact path="/fitness" element={<Fitness />}>
-            </Route>
-            <Route exact path="/food" element={<Food />}>
-            </Route>
-          </Routes>
+          <div className="container my-3">
+            <Routes>
+              <Route exact path="/" element={<Home />}>
+              </Route>
+              <Route exact path="/bollywood" element={<Bollywood />}>
+              </Route>
+              <Route exact path="/technology" element={<Technology />}>
+              </Route>
+              <Route exact path="/hollywood" element={<Hollywood />}>
+              </Route>
+              <Route exact path="/fitness" element={<Fitness />}>
+              </Route>
+              <Route exact path="/food" element={<Food />}>
+              </Route>
+            </Routes>
+          </div>
         </Router>
 
       </>
