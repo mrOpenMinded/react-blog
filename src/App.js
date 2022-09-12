@@ -20,10 +20,12 @@ export default class App extends Component {
         <Router>
           <Header />
           <Navbar />
-          <div className="container my-3">
+          {/* <div className="container my-3"> */}
             <Routes>
-              <Route exact path="/" element={<Home />}>
+              <Route exact path="/" index element={<Home />}>
               </Route>
+              {/* <Route exact path="/home" element={<Home />}>
+              </Route> */}
               <Route exact path="/bollywood" element={<Bollywood />}>
               </Route>
               <Route exact path="/technology" element={<Technology />}>
@@ -35,7 +37,7 @@ export default class App extends Component {
               <Route exact path="/food" element={<Food />}>
               </Route>
             </Routes>
-          </div>
+          {/* </div> */}
         </Router>
 
       </>

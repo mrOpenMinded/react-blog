@@ -62,7 +62,7 @@ export default class Home extends Component {
             
     </div> */}
         <div className="d-flex  flex-wrap">
-          <div className="card mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card mx-1 my-2" style={{ width: "18rem" }}>
             <img src={ghat1} className="card-img-top" alt="ghat" style={{ width: "287px", height: "214px" }} />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
@@ -70,7 +70,7 @@ export default class Home extends Component {
               <a href="/" className="btn btn-dark">Read More</a>
             </div>
           </div>
-          <div className="card mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card mx-1 my-2" style={{ width: "18rem" }}>
             <img src={ghat1} className="card-img-top" alt="ghat" style={{ width: "287px", height: "214px" }} />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
@@ -78,7 +78,7 @@ export default class Home extends Component {
               <a href="/" className="btn btn-dark">Read More</a>
             </div>
           </div>
-          <div className="card mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card mx-1 my-2" style={{ width: "18rem" }}>
             <img src={ghat1} className="card-img-top" alt="ghat" style={{ width: "287px", height: "214px" }} />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
@@ -86,7 +86,7 @@ export default class Home extends Component {
               <a href="/" className="btn btn-dark">Read More</a>
             </div>
           </div>
-          <div className="card mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card mx-1 my-2" style={{ width: "18rem" }}>
             <img src={ghat1} className="card-img-top" alt="ghat" style={{ width: "287px", height: "214px" }} />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
@@ -94,7 +94,7 @@ export default class Home extends Component {
               <a href="/" className="btn btn-dark">Read More</a>
             </div>
           </div>
-          <div className="card mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card mx-1 my-2" style={{ width: "18rem" }}>
             <img src={ghat1} className="card-img-top" alt="ghat" style={{ width: "287px", height: "214px" }} />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
@@ -102,7 +102,7 @@ export default class Home extends Component {
               <a href="/" className="btn btn-dark">Read More</a>
             </div>
           </div>
-          <div className="card mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card mx-1 my-2" style={{ width: "18rem" }}>
             <img src={ghat1} className="card-img-top" alt="ghat" style={{ width: "287px", height: "214px" }} />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
@@ -110,7 +110,7 @@ export default class Home extends Component {
               <a href="/" className="btn btn-dark">Read More</a>
             </div>
           </div>
-          <div className="card mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card mx-1 my-2" style={{ width: "18rem" }}>
             <img src={ghat1} className="card-img-top" alt="ghat" style={{ width: "287px", height: "214px" }} />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
@@ -118,7 +118,7 @@ export default class Home extends Component {
               <a href="/" className="btn btn-dark">Read More</a>
             </div>
           </div>
-          <div className="card mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card mx-1 my-2" style={{ width: "18rem" }}>
             <img src={ghat1} className="card-img-top" alt="ghat" style={{ width: "287px", height: "214px" }} />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
@@ -127,7 +127,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="Container2 mx-2">
+        <div className="Container2 ">
           <h1 className="title2">
             Latest Articles
           </h1>
@@ -269,47 +269,52 @@ export default class Home extends Component {
           </h1>
           <hr className="photoTitle"></hr>
         </div>
-        <div className="d-flex  Container7 mx-2 flex-wrap" >
-          <div className="card mx-2 my-4" style={{ width: "15rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div className="Container7">
+          <div className=" d-flex flex-wrap " >
+            <div className="card mx-1 my-3" style={{ width: "15rem" }}>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
-          </div>
-          <div className="card mx-2 my-4" style={{ width: "15rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div className="card mx-1 my-3" style={{ width: "15rem" }}>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
-          </div>
-          <div className="card mx-2 my-4" style={{ width: "15rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div className="card mx-1 my-3" style={{ width: "15rem" }}>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
-          </div>
-          <div className="card mx-2 my-4" style={{ width: "15rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div className="card mx-1 my-3" style={{ width: "15rem" }}>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
-          </div>
-          <div className="card mx-2 my-4" style={{ width: "15rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div className="card mx-1 my-3" style={{ width: "15rem" }}>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
-          </div>
-          <div className="card mx-2 my-4" style={{ width: "15rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div className="card mx-1 my-3" style={{ width: "15rem" }}>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
+            {/* <h3>Welcome.!!!</h3> */}
           </div>
           <a href="https://pixabay.com" style={{ textDecoration: "none", fontSize: "22px", color: "#F08080" }}>
-             View More &rarr;
-          </a>
+              View More &rarr;
+            </a>
         </div>
+
+
 
       </>
     )
