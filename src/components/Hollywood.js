@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './Hollywood.css';
-import './Home.css';
-import './Header.css';
-import Navbar from './Navbar';
-import PropTypes from 'prop-types';
+// import './Home.css';
+// import './Header.css';
+// import Navbar from './Navbar';
+// import PropTypes from 'prop-types';
 import holly1 from './holly1.jpg';
 import holly2 from './holly2.jpg';
 import holly3 from './holly3.jpg';
@@ -19,22 +19,22 @@ import holly12 from './holly12.png';
 import holly13 from './holly13.jpg';
 
 export default class Hollywood extends Component {
-  static defaultProps = {
-    head1:"The",
-    head2:"Siren"
-}
-static propTypes = {
-  head1:PropTypes.string,
-  head2:PropTypes.string,
-}
+  // static defaultProps = {
+  //   head1: "The",
+  //   head2: "Siren"
+  // }
+  // static propTypes = {
+  //   head1: PropTypes.string,
+  //   head2: PropTypes.string,
+  // }
   render() {
     return (
       <>
-      <div className="headCom">
-        <h1><span id="head1">{this.props.head1}</span>{this.props.head2}</h1>
-      </div>
-      <Navbar />
-       <div className="ContainerH1">
+        {/* <div className="headCom">
+          <h1><span id="head1">{this.props.head1}</span>{this.props.head2}</h1>
+        </div>
+        <Navbar /> */}
+        <div className="ContainerH1">
           <h2 className="titleHolly1">Hollywood</h2>
           <hr className="headHolly1"></hr>
           <div className="card mb-3 mx-2 my-1" style={{ maxWidth: "600px" }}>
@@ -136,9 +136,9 @@ static propTypes = {
             </div>
           </div>
           <a href="https://www.isro.gov.in">
-          <img className="mx-2" src={holly13} alt="holly13" style={{ width: "581px", height: "320px", marginTop: "20px" }} />
+            <img className="mx-2" src={holly13} alt="holly13" style={{ width: "581px", height: "320px", marginTop: "20px" }} />
           </a>
-          
+
 
         </div>
         <div className="ContainerH2">

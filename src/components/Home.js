@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './Home.css';
-import './Header.css';
-import Navbar from './Navbar';
-import PropTypes from 'prop-types';
+// import './Header.css';
+// import Navbar from './Navbar';
+// import PropTypes from 'prop-types'; 
 import land1 from './land1.jpg';
 import land2 from './land2.jpg';
 import land3 from './land3.jpg';
@@ -19,21 +19,21 @@ import post4 from './post4.jpg';
 import scene1 from './scene1.jpg';
 
 export default class Home extends Component {
-  static defaultProps = {
-    head1:"The",
-    head2:"Siren"
-}
-static propTypes = {
-  head1:PropTypes.string,
-  head2:PropTypes.string,
-}
+  // static defaultProps = {
+  //   head1: "The",
+  //   head2: "Siren"
+  // }
+  // static propTypes = {
+  //   head1: PropTypes.string,
+  //   head2: PropTypes.string,
+  // }
   render() {
     return (
       <>
-      <div className="headCom">
-        <h1><span id="head1">{this.props.head1}</span>{this.props.head2}</h1>
-      </div>
-      <Navbar />
+        {/* <div className="headCom">
+          <h1><span id="head1">{this.props.head1}</span>{this.props.head2}</h1>
+        </div>
+        <Navbar /> */}
         <div className="Container">
           <div className="container1">
             <a href="https://pixabay.com">

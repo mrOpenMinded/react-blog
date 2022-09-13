@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './Bollywood.css';
-import './Home.css';
-import './Header.css';
-import Navbar from './Navbar';
-import PropTypes from 'prop-types';
+// import './Home.css';
+// import './Header.css';
+// import Navbar from './Navbar';
+// import PropTypes from 'prop-types';
 import bolly1 from './bolly1.jpg';
 import bolly2 from './bolly2.jpg';
 import bolly3 from './bolly3.jpg';
@@ -20,21 +20,21 @@ import adver2 from './adver2.png';
 
 
 export default class Bollywood extends Component {
-    static defaultProps = {
-        head1:"The",
-        head2:"Siren"
-    }
-    static propTypes = {
-      head1:PropTypes.string,
-      head2:PropTypes.string,
-    }
+    // static defaultProps = {
+    //     head1:"The",
+    //     head2:"Siren"
+    // }
+    // static propTypes = {
+    //   head1:PropTypes.string,
+    //   head2:PropTypes.string,
+    // }
     render() {
         return (
             <>
-                <div className="headCom">
+                {/* <div className="headCom">
                     <h1><span id="head1">{this.props.head1}</span>{this.props.head2}</h1>
                 </div>
-                <Navbar />
+                <Navbar /> */}
                 <div className="Container10">
                     <h3>Bollywood</h3>
                     <hr className="bollyHead">

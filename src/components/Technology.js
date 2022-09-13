@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './Technology.css';
-import './Home.css';
-import './Header.css';
-import Navbar from './Navbar';
-import PropTypes from 'prop-types';
+// import './Home.css';
+// import './Header.css';
+// import Navbar from './Navbar';
+// import PropTypes from 'prop-types';
 import tech1 from './tech1.jpg';
 import tech2 from './tech2.jpg';
 import tech3 from './tech3.jpg';
@@ -19,21 +19,21 @@ import tech12 from './tech12.jpg';
 import tech13 from './tech13.jpg';
 
 export default class Technology extends Component {
-  static defaultProps = {
-    head1:"The",
-    head2:"Siren"
-}
-static propTypes = {
-  head1:PropTypes.string,
-  head2:PropTypes.string,
-}
+  // static defaultProps = {
+  //   head1: "The",
+  //   head2: "Siren"
+  // }
+  // static propTypes = {
+  //   head1: PropTypes.string,
+  //   head2: PropTypes.string,
+  // } 
   render() {
     return (
       <>
-      <div className="headCom">
-        <h1><span id="head1">{this.props.head1}</span>{this.props.head2}</h1>
-      </div>
-      <Navbar />
+        {/* <div className="headCom">
+          <h1><span id="head1">{this.props.head1}</span>{this.props.head2}</h1>
+        </div>
+        <Navbar /> */}
         <div className="ContainerT1">
           <h2 className="titleTech1">Technology</h2>
           <hr className="headTech1"></hr>
@@ -136,9 +136,9 @@ static propTypes = {
             </div>
           </div>
           <a href="https://www.isro.gov.in">
-          <img className="mx-2" src={tech13} alt="tech13" style={{ width: "581px", height: "320px", marginTop: "20px" }} />
+            <img className="mx-2" src={tech13} alt="tech13" style={{ width: "581px", height: "320px", marginTop: "20px" }} />
           </a>
-          
+
 
         </div>
         <div className="ContainerT2">
