@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-blog/static/css/main.6e3c713a.css",
-    "main.js": "/react-blog/static/js/main.d12b1777.js",
+    "main.css": "/react-blog/static/css/main.3f2e6423.css",
+    "main.js": "/react-blog/static/js/main.f4eae3d2.js",
     "static/js/787.9e0c1f39.chunk.js": "/react-blog/static/js/787.9e0c1f39.chunk.js",
     "static/media/adver2.png": "/react-blog/static/media/adver2.d69602477797272b6616.png",
     "static/media/holly10.png": "/react-blog/static/media/holly10.29e4faae1fd603c3dc31.png",
@@ -82,12 +82,12 @@
     "static/media/tech2.jpg": "/react-blog/static/media/tech2.2fff16a82b8cf7bdd1b8.jpg",
     "static/media/mount1.jpg": "/react-blog/static/media/mount1.106c38efc395f7fd5187.jpg",
     "index.html": "/react-blog/index.html",
-    "main.6e3c713a.css.map": "/react-blog/static/css/main.6e3c713a.css.map",
-    "main.d12b1777.js.map": "/react-blog/static/js/main.d12b1777.js.map",
+    "main.3f2e6423.css.map": "/react-blog/static/css/main.3f2e6423.css.map",
+    "main.f4eae3d2.js.map": "/react-blog/static/js/main.f4eae3d2.js.map",
     "787.9e0c1f39.chunk.js.map": "/react-blog/static/js/787.9e0c1f39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e3c713a.css",
-    "static/js/main.d12b1777.js"
+    "static/css/main.3f2e6423.css",
+    "static/js/main.f4eae3d2.js"
   ]
 }
