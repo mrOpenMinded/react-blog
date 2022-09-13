@@ -18,21 +18,21 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <div className="headCom">
-          <h1><span id="head1">The</span>Siren</h1>
-        </div>
+        {/* <div className="headCom"> */}
+          
+        {/* </div> */}
         <Router>
           {/* <Header /> */}
-
+          <h1 className="headCom"><span id="head1">The</span>Siren</h1>
           <Navbar />
           {/* <Home /> */}
           {/* <div className="container my-3"> */}
           {/* <div class="box1 my-2">  */}
           <Routes>
-            <Route exact path="/" index element={<Home />} >
+            <Route  path="/react-blog"  element={<Home />} >
             </Route>
-            {/* <Route exact path="/home" element={<Home />}>
-              </Route> */}
+            <Route exact path="/" element={<Home />}>
+              </Route>
             <Route exact path="/bollywood" element={<Bollywood />} >
             </Route>
             <Route exact path="/technology" element={<Technology />} >
