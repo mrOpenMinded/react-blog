@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import './Fitness.css';
+import './Home.css';
+import './Header.css';
+import Navbar from './Navbar';
+import PropTypes from 'prop-types';
 import fit1 from './fit1.jpg';
 import fit2 from './fit2.jpg';
 import fit3 from './fit3.jpg';
@@ -15,9 +19,21 @@ import fit12 from './fit12.jpg';
 import fit13 from './fit13.jpg';
 
 export default class Fitness extends Component {
+  static defaultProps = {
+    head1:"The",
+    head2:"Siren"
+}
+static propTypes = {
+  head1:PropTypes.string,
+  head2:PropTypes.string,
+}
   render() {
     return (
       <>
+      <div className="headCom">
+        <h1><span id="head1">{this.props.head1}</span>{this.props.head2}</h1>
+      </div>
+      <Navbar />
       <div className="ContainerFit1">
           <h2 className="titleFit1">Fitness</h2>
           <hr className="headFit1"></hr>

@@ -1,7 +1,12 @@
 
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import './Food.css';
+import './Home.css';
+import './Header.css';
+import Navbar from './Navbar';
+import PropTypes from 'prop-types';
+
 import food1 from './food1.jpg';
 import food2 from './food2.jpg';
 import food3 from './food3.jpg';
@@ -17,9 +22,21 @@ import food12 from './food12.jpg';
 import food13 from './food13.jpg';
 
 export default class Food extends Component {
+  static defaultProps = {
+    head1:"The",
+    head2:"Siren"
+}
+static propTypes = {
+  head1:PropTypes.string,
+  head2:PropTypes.string,
+}
   render() {
     return (
       <>
+      <div className="headCom">
+        <h1><span id="head1">{this.props.head1}</span>{this.props.head2}</h1>
+      </div>
+      <Navbar />
       <div className="ContainerFood1">
           <h2 className="titleFood1">Food</h2>
           <hr className="headFood1"></hr>
